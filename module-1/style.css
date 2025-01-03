@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2e2e2e;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: #505050;
+    padding: 10px;
+    color: white;
+    font-size: 24px;
+    border-radius: 10px;
+    width: 268px;
+    
+}
+#text{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    height: 70px;
+    width: 100%;
+    overflow: auto;
+}
+table{
+    border-spacing: 10px;
+
+}
+
+table td svg{
+    width: 26px;
+    height: 26px;
+    position: relative;
+    top: 5px;
+}
+
+table td{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #717171;
+    transition: all 0.05s ease-in-out;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+}
+table td:active{
+    transform: scale(0.9);
+}
